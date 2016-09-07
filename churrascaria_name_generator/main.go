@@ -17,6 +17,7 @@ func handleGimmeAName(w http.ResponseWriter, r *http.Request) {
 		{"Brasa", "F"},
 		{"Estância", "F"},
 		{"Estrela", "F"},
+		{"Tradição", "F"},
 	}
 
 	adjectivesM := [...]string{
@@ -29,6 +30,7 @@ func handleGimmeAName(w http.ResponseWriter, r *http.Request) {
 		"da Fronteira",
 		"Gauchesco",
 		"Gaudério",
+		"Farrapo",
 	}
 
 	adjectivesF := [...]string{
