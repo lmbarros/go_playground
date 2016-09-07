@@ -4,7 +4,8 @@ import (
 	"fmt"
 	"math/rand"
 	"net/http"
-	"time"
+
+	"github.com/lmbarros/sbxs_go_rand/rand/randutil"
 )
 
 func handleGimmeAName(w http.ResponseWriter, r *http.Request) {
@@ -64,7 +65,7 @@ func handleEverythingElse(w http.ResponseWriter, r *http.Request) {
 }
 
 func main() {
-	rand.Seed(time.Now().Unix())
+	rand.Seed(randutil.GoodSeed())
 
 	http.HandleFunc("/gimmeaname", handleGimmeAName)
 	http.HandleFunc("/", handleEverythingElse)
