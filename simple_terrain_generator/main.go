@@ -9,9 +9,9 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/lmbarros/sbxs_go_noise/noise/fractalnoise"
-	"github.com/lmbarros/sbxs_go_noise/noise/opensimplex"
-	"github.com/lmbarros/sbxs_go_rand/rand/randutil"
+	"github.com/lmbarros/sbxs_go_noise/fractalnoise"
+	"github.com/lmbarros/sbxs_go_noise/opensimplex"
+	"github.com/lmbarros/sbxs_go_rand/randutil"
 )
 
 const (

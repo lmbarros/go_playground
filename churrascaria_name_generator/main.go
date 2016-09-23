@@ -5,7 +5,7 @@ import (
 	"math/rand"
 	"net/http"
 
-	"github.com/lmbarros/sbxs_go_rand/rand/randutil"
+	"github.com/lmbarros/sbxs_go_rand/randutil"
 )
 
 func handleGimmeAName(w http.ResponseWriter, r *http.Request) {
