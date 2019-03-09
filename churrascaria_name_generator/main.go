@@ -19,6 +19,8 @@ func handleGimmeAName(w http.ResponseWriter, r *http.Request) {
 		{"Estância", "F"},
 		{"Estrela", "F"},
 		{"Tradição", "F"},
+		{"Sabor", "M"},
+		{"Assado", "M"},
 	}
 
 	adjectivesM := [...]string{
@@ -33,6 +35,8 @@ func handleGimmeAName(w http.ResponseWriter, r *http.Request) {
 		"Gaudério",
 		"Farrapo",
 		"da Amizade",
+		"do Pampa",
+		"dos Pampas",
 	}
 
 	adjectivesF := [...]string{
@@ -46,6 +50,8 @@ func handleGimmeAName(w http.ResponseWriter, r *http.Request) {
 		"Gauchesca",
 		"Gaudéria",
 		"da Amizade",
+		"do Pampa",
+		"dos Pampas",
 	}
 
 	i := rand.Intn(len(nouns))
